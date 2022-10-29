@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": [
+      "es6"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "src",
+    "paths": {
+      "Assets/*": [ "./Assets/*" ],
+      "Components/*": [ "./Components/*" ],
+      "Stores/*": [ "./Stores/*" ],
+      "Services/*": [ "./Services/*" ],
+      "Navigation/*": [ "./Navigation/*" ],
+      "Screens/*": [ "./Screens/*" ],
+      "Helpers/*": [ "./Helpers/*" ],
+    },
+    "experimentalDecorators": true,
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
